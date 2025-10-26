@@ -2,6 +2,7 @@ const products = [
   {
     _id: '1',
     name: 'Dump Trump T-Shirt',
+    image: '/images/phone.jpg',
     description: 'Bold and comfortable anti-Trump tee for everyday resistance.',
     brand: 'ResistWear',
     category: 'Apparel',
@@ -13,7 +14,8 @@ const products = [
   {
     _id: '2',
     name: 'Not My President Mug',
-    description: 'Ceramic mug with iconic “Not My President” slogan.',
+    image: '/images/mouse.jpg',
+    description: 'Ceramic mug with iconic "Not My President" slogan.',
     brand: 'MugLife',
     category: 'Accessories',
     price: 14.95,
@@ -24,6 +26,7 @@ const products = [
   {
     _id: '3',
     name: 'Flush the Orange Hat',
+    image: '/images/camera.jpg',
     description: 'Minimal embroidered cap calling for a political cleanse.',
     brand: 'BlueCaps',
     category: 'Hats',
@@ -35,6 +38,7 @@ const products = [
   {
     _id: '4',
     name: 'Trump Tears Water Bottle',
+    image: '/images/airpods.jpg',
     description: 'Hydrate with irony – BPA-free water bottle.',
     brand: 'LeftHydrate',
     category: 'Accessories',
@@ -46,6 +50,7 @@ const products = [
   {
     _id: '5',
     name: 'Bye Don 2020 Throwback Tee',
+    image: '/images/playstation.jpg',
     description: 'Retro-style shirt celebrating the end of an era.',
     brand: 'ThrowShade Co.',
     category: 'Apparel',
@@ -57,6 +62,7 @@ const products = [
   {
     _id: '6',
     name: 'Arrest Trump Sticker Pack',
+    image: '/images/alexa.jpg',
     description: 'Set of 5 waterproof vinyl stickers with bold statements.',
     brand: 'StickerStorm',
     category: 'Stickers',
@@ -68,6 +74,7 @@ const products = [
   {
     _id: '7',
     name: 'Impeach Again Hoodie',
+    image: '/images/camera_DeAtR52.jpg',
     description: 'Soft cotton hoodie for cool protests or cozy nights.',
     brand: 'ResistWear',
     category: 'Apparel',
@@ -79,7 +86,8 @@ const products = [
   {
     _id: '8',
     name: 'Narcissist-in-Chief Notebook',
-    description: 'Satirical journal for documenting democracy’s recovery.',
+    image: '/images/placeholder.png',
+    description: 'Satirical journal for documenting democracy\'s recovery.',
     brand: 'WokeNotes',
     category: 'Stationery',
     price: 11.5,
@@ -90,6 +98,7 @@ const products = [
   {
     _id: '9',
     name: 'Convict Trump Poster',
+    image: '/images/phone.jpg',
     description: 'High-quality matte poster of Lady Justice and 45.',
     brand: 'WallResistance',
     category: 'Posters',
@@ -101,6 +110,7 @@ const products = [
   {
     _id: '10',
     name: 'No Fascist USA Flag',
+    image: '/images/mouse.jpg',
     description: 'Fabric banner for home, office, or protests.',
     brand: 'FlagRevolt',
     category: 'Flags',
@@ -112,6 +122,7 @@ const products = [
   {
     _id: '11',
     name: 'Orange Lies Matter Tote',
+    image: '/images/camera.jpg',
     description: 'Eco-friendly tote bag with anti-Trump slogan.',
     brand: 'ResistEco',
     category: 'Accessories',
@@ -123,6 +134,7 @@ const products = [
   {
     _id: '12',
     name: 'Make America Think Again Hat',
+    image: '/images/airpods.jpg',
     description: 'Premium dad cap for progressive thinkers.',
     brand: 'BlueCaps',
     category: 'Hats',
@@ -134,7 +146,8 @@ const products = [
   {
     _id: '13',
     name: 'Tiny Hands Soap Bar',
-    description: 'Comical soap shaped to poke fun at Trump’s insecurities.',
+    image: '/images/playstation.jpg',
+    description: 'Comical soap shaped to poke fun at Trump\'s insecurities.',
     brand: 'SatireSoap Co.',
     category: 'Gifts',
     price: 7.5,
@@ -145,6 +158,7 @@ const products = [
   {
     _id: '14',
     name: 'Vote Him Out Lawn Sign',
+    image: '/images/alexa.jpg',
     description: 'Weatherproof political sign for your yard.',
     brand: 'CivicSigns',
     category: 'Signs',
@@ -156,7 +170,8 @@ const products = [
   {
     _id: '15',
     name: 'Tax Return Mystery Box',
-    description: 'Satirical “mystery” box poking fun at Trump’s hidden returns.',
+    image: '/images/camera_DeAtR52.jpg',
+    description: 'Satirical "mystery" box poking fun at Trump\'s hidden returns.',
     brand: 'FakeFiles',
     category: 'Gifts',
     price: 12.0,
@@ -167,6 +182,7 @@ const products = [
   {
     _id: '16',
     name: 'Lock Him Up Enamel Pin',
+    image: '/images/placeholder.png',
     description: 'Glossy lapel pin for anti-Trump flair.',
     brand: 'PinItDown',
     category: 'Pins',
@@ -178,6 +194,7 @@ const products = [
   {
     _id: '17',
     name: 'Presidents Are Not Kings Tee',
+    image: '/images/phone.jpg',
     description: 'Quotable tee quoting constitutional truths.',
     brand: 'CivicWear',
     category: 'Apparel',
@@ -189,8 +206,9 @@ const products = [
   {
     _id: '18',
     name: 'Trump Conviction Countdown Calendar',
+    image: '/images/mouse.jpg',
     description: 'Gag calendar marking political progress.',
-    brand: 'Time’s Up Press',
+    brand: 'Time\'s Up Press',
     category: 'Stationery',
     price: 10.0,
     countInStock: 29,
@@ -200,6 +218,7 @@ const products = [
   {
     _id: '19',
     name: 'No Trump Zone Sticker',
+    image: '/images/camera.jpg',
     description: 'Die-cut sticker to keep your space clean of orange energy.',
     brand: 'StickerStorm',
     category: 'Stickers',
@@ -211,6 +230,7 @@ const products = [
   {
     _id: '20',
     name: 'The Art of the Con Mug',
+    image: '/images/airpods.jpg',
     description: 'Spoof of a famous book title, now a coffee mug.',
     brand: 'MugLife',
     category: 'Accessories',
@@ -222,6 +242,7 @@ const products = [
   {
     _id: '21',
     name: 'Fake News Whistle',
+    image: '/images/playstation.jpg',
     description: 'Plastic novelty whistle to call out lies on the go.',
     brand: 'BlowBack Co.',
     category: 'Gifts',
@@ -233,6 +254,7 @@ const products = [
   {
     _id: '22',
     name: 'Ban Bigotry Tee',
+    image: '/images/alexa.jpg',
     description: 'Soft cotton tee with bold anti-hate message.',
     brand: 'UnityThreads',
     category: 'Apparel',
@@ -244,6 +266,7 @@ const products = [
   {
     _id: '23',
     name: 'Orange is the New Indicted Hoodie',
+    image: '/images/camera_DeAtR52.jpg',
     description: 'Warm hoodie with a courtroom twist.',
     brand: 'JusticeWear',
     category: 'Apparel',
@@ -255,6 +278,7 @@ const products = [
   {
     _id: '24',
     name: 'No MAGA Zone Yard Flag',
+    image: '/images/placeholder.png',
     description: 'Fabric flag to make your stance loud and proud.',
     brand: 'FlagRevolt',
     category: 'Flags',
@@ -266,6 +290,7 @@ const products = [
   {
     _id: '25',
     name: '45 Guilty Verdict Shirt',
+    image: '/images/phone.jpg',
     description: 'Design celebrating truth and accountability.',
     brand: 'ResistWear',
     category: 'Apparel',
