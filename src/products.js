@@ -7,7 +7,7 @@ const products = [
     brand: 'ResistWear',
     category: 'Apparel',
     price: 24.99,
-    countInStock: 32,
+    countInStock: 0,
     rating: 4.5,
     numReviews: 87,
   },

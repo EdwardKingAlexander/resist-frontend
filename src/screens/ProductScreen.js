@@ -1,6 +1,14 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import { Row, Col, Image, ListGroup, Button, Card } from "react-bootstrap";
+import {
+  Row,
+  Col,
+  Image,
+  ListGroup,
+  Button,
+  Card,
+  ListGroupItem,
+} from "react-bootstrap";
 import Rating from "../components/Rating";
 import products from "../products";
 
@@ -32,13 +40,53 @@ function ProductScreen() {
             <ListGroup.Item>
               <Rating
                 value={product.rating}
-                text={`${product.numReviews} ratings`}
+                text={`${product.numReviews} reviews`}
                 color={"#f8e825"}
               />
             </ListGroup.Item>
+
+            <ListGroup.Item>
+              <Row>
+                <Col>Price:</Col>
+                <Col>
+                <strong>
+                  ${product.price}
+                </strong>
+                </Col>
+              </Row>
+              </ListGroup.Item>
+
+              <ListGroup.Item>
+              <Row>
+                <Col>In Stock:</Col>
+                <Col>
+                <strong>
+                  {product.countInStock > 0 ? "In Stock" : "Out of Stock"}
+                </strong>
+                </Col>
+              </Row>
+              </ListGroup.Item>
+
+              <ListGroup.Item>
+                <Button className="btn-block" type='botton' disabled={product.countInStock === 0}>
+                  Add To Cart
+                </Button>
+              </ListGroup.Item>
+
+            <ListGroupItem>Description: {product.description}</ListGroupItem>
           </ListGroup>
+          <Card>
+            <ListGroup variant="flush">
+              <ListGroup.Item>
+<Row>
+  <Col>
+  Price:
+  </Col>
+</Row>
+              </ListGroup.Item>
+            </ListGroup>
+          </Card>
         </Col>
-        <Col md={3}></Col>
       </Row>
     </div>
   );
